@@ -7,7 +7,6 @@ output "instance_name" {
   value       = var.instance_name
 }
 
-
 output "address for website" {
   value = aws_elb.web-nginx.dns_name
 }
